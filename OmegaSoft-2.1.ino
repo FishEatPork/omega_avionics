@@ -184,12 +184,6 @@ Ax = asin(OrientationX) * (-180 / PI);
 Ay = asin(OrientationY) * (180 / PI);
 
 
-pidcompute();
-
-  
-}
-
-
 void servowrite() {
 
  servoX.write(pwmX);
